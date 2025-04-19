@@ -13,7 +13,7 @@ def load_langgraph_agenticai_app():
     sets up the graph based on the selected use case, and displays the output while 
     implementing exception handling for robustness.
     """
-   
+    print("Loading LangGraph AgenticAI App...")
     # Load UI
     ui = LoadStreamlitUI()
     user_input = ui.load_streamlit_ui()
